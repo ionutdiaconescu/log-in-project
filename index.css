@@ -1,0 +1,79 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+}
+
+.full-screen-container {
+  background-image: url(/img/bkg.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container {
+  background-color: hsla(201, 96%, 11%, 0.6);
+  padding: 30px 20px;
+  min-width: 200px;
+  width: 50%;
+  max-width: 400px;
+}
+.login-tittle {
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.input-group label {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+
+.input-group input {
+  background-color: hsla(201, 100%, 91%, 0.3);
+  border: 1px solid hsla(201, 100%, 6%);
+  outline: none;
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+  border-radius: 5px;
+  color: white;
+  font-weight: lighter;
+}
+.input-group input:focus {
+  border: 1px solid hsla(201, 200%, 50%);
+}
+.login-button {
+  background-color: hsla(201, 200%, 50%, 0.1);
+  border: 1px solid hsla(201, 200%, 50%);
+  outline: none;
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.5em;
+  color: white;
+  font-weight: lighter;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: hsla(201, 100%, 50%, 0.3);
+}
+.login-button:focus {
+  background-color: hsla(201, 100%, 50%, 0.5);
+}
